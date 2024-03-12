@@ -1,0 +1,33 @@
+{
+  "name": "my-crypto-node",
+  "version": "1.0.0",
+  "description": "Abvos node",
+  "engines": {
+    "node": ">=6.11.3"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/server.js"
+  },
+  "dependencies": {
+    "my-crypto-socket": "^1.0.1",
+    "abv-ts": "0.0.5",
+    "abv-vfs": "0.0.5",
+    "uws": "10.148.1",
+    "ws": "^6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Harper443/node.git"
+  },
+  "keywords": [
+    "abv",
+    "abvos",
+    "websocket",
+    "search"
+  ],
+  "optionalDependencies": {
+    "bufferutil": "^3.0.4",
+    "utf-8-validate": "^4.0.1"
+  }
+}
